@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/clanguage"></LinearLayout>
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ScrollView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tutorials"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:background="#01579B"
+                android:gravity="center"
+                android:text="Tutorials"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/programs"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:background="#880E4F"
+                android:gravity="center"
+                android:text="Programs"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tests"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:background="#3E2723"
+                android:gravity="center"
+                android:text="Tests"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/logics"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:background="#004D40"
+                android:gravity="center"
+                android:text="Logics"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/questions"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:background="#1B5E20"
+                android:gravity="center"
+                android:text="Questions"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/helps"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="0.5"
+                android:background="#263238"
+                android:gravity="center"
+                android:text="Helps"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tips_tricks"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            android:background="#00B8D4"
+            android:text="Tips and Tricks"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/compile_hereTv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:gravity="center"
+            android:background="#8c3b00"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp"
+            android:text="Compile Your Code Here"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+</LinearLayout>

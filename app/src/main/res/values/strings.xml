@@ -1,0 +1,1448 @@
+<resources formatted="false">
+    <string name="app_name">Skill Development</string>
+    <string name="action_settings">Settings</string>
+    <string name="Introuduction">C is a general-purpose high level language that was originally developed by Dennis Ritchie for the Unix operating system. It was first implemented on the Digital Eqquipment Corporation PDP-11 computer in 1972.\n\n
+
+The Unix operating system and virtually all Unix applications are written in the C language. C has now become a widely used professional language for various reasons.\n\n
+
+Easy to learn\n
+
+Structured language\n
+
+It produces efficient programs.\n
+
+It can handle low-level activities.\n
+
+It can be compiled on a variety of computers.\n\n</string>
+
+    <string name="function_basics" formatted="false">A function is a group of statements that together perform a task. Every C program has at least one function, which is main(), and all the most trivial programs can define additional functions.\n\n
+
+You can divide up your code into separate functions. How you divide up your code among different functions is up to you, but logically the division is such that each function performs a specific task.\n\n
+
+A function declaration tells the compiler about a functions name, return type, and parameters. A function definition provides the actual body of the function.\n\n
+
+The C standard library provides numerous built-in functions that your program can call. For example, strcat() to concatenate two strings, memcpy() to copy one memory location to another location, and many more functions.\n\n
+
+A function can also be referred as a method or a sub-routine or a procedure, etc.\n\n</string>
+
+    <string name="advantage_of_c" formatted="false">1. C language is a building block for many other currently known languages.\n\n
+C language has variety of data types and powerful operators. Due to this, programs written in C language are efficient, fast and easy to understand.\n\n
+
+2. C is highly portable language. This means that C programs written for one computer can easily run on another computer without any change or by doing a little change.\n\n
+
+3. There are only 32 keywords in ANSI C and its strength lies in its built-in functions. Several standard functions are available which can be used for developing programs.\n\n
+
+4. Another important advantage of C is its ability to extend itself. A C program is basically a collection of functions that are supported by the C library this makes us easier to add our own functions to C library. Due to the availability of large number of functions, the programming task becomes simple.\n\n
+
+5. C language is a structured programming language. This makes user to think of a problem in terms of function modules or blocks. Collection of these modules makes a complete program. This modular structure makes program debugging, testing and maintenance easier.\n\n
+    </string>
+
+    <string name="function_definition_declaration" formatted="false">Defining a Function\n\n
+The general form of a function definition in C programming language is as follows −\n\n
+
+return_type function_name( parameter list ) {\n
+   body of the function\n
+}\n
+A function definition in C programming consists of a function header and a function body. Here are all the parts of a function −\n\n
+
+Return Type − A function may return a value. The return_type is the data type of the value the function returns. Some functions perform the desired operations without returning a value. In this case, the return_type is the keyword void.\n\n
+
+Function Name − This is the actual name of the function. The function name and the parameter list together constitute the function signature.\n\n
+
+Parameters − A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument. The parameter list refers to the type, order, and number of the parameters of a function. Parameters are optional; that is, a function may contain no parameters.\n\n
+
+Function Body − The function body contains a collection of statements that define what the function does.\n\n\n
+    Function Declarations\n\n
+A function declaration tells the compiler about a function name and how to call the function. The actual body of the function can be defined separately.\n\n
+
+A function declaration has the following parts −\n\n
+
+return_type function_name( parameter list );\n
+For the above defined function max(), the function declaration is as follows −\n\n
+
+int max(int num1, int num2);\n
+Parameter names are not important in function declaration only their type is required, so the following is also a valid declaration −\n\n
+
+int max(int, int);\n
+Function declaration is required when you define a function in one source file and you call that function in another file. In such case, you should declare the function at the top of the file calling the function.\n\n
+    </string>
+    <array name="programs" formatted="false">
+        <item>Hello World</item>
+        <item>Print Integer</item>
+        <item>Addition of Two Numbers</item>
+        <item>Area of Triangle</item>
+        <item>Odd or Even</item>
+        <item>Add Subtract Multiply Divide</item>
+        <item>Greatest of 3 Numbers</item>
+        <item>Swapping Two numbers</item>
+        <item>Calculate Percentage</item>
+        <item>Simple Interest</item>
+        <item>Area of Rectangle</item>
+        <item>Volume of Cylinder</item>
+        <item>HCF and LCM</item>
+        <item>nCr and nPr</item>
+        <item>Reverse Number</item>
+        <item>Prime Number</item>
+        <item>Perfect Numbers</item>
+        <item>Amstrong Number</item>
+        <item>Factorial Of Number</item>
+        <item>Fibonacci Series</item>
+        <item>Print Pattern</item>
+    </array>
+
+    <string name="tips_tricks_details" formatted="false">
+        <b>Tip 1: Learn the language ‘C’</b>\n\n
+ We all know why ‘C’ is the most powerful programming language,but I am not recommending learning ‘C’ to you because of its power in programming.
+
+‘C’ offers you a structured style of programming. You have one file with the main() method and the execution begins from there and the execution flow proceeds as you have directed it to.
+
+The main advantage in ‘C’ is that it allows you to play around with memory directly. This I believe is very important if you need to understand how data is passed from one memory block to another. The reason is that you start to visualize in your minds eye how data moves in your program.\n\n
+
+        <b>Tip 2: Develop programs that test your mind skillsEver heard of the Fibonacci series?</b>\n\n
+
+Ever built a program that will allow the user to type his/her name and allow to bounce off that name on the screen from one corner to another like a ball?
+
+Ever thought of creating a library for a Menu Bar system?
+
+All these are examples of programs that you can develop to improve your mind and programming skills.\n\n
+
+       <b> Tip 3: Locate code and try to understand why it was written that way.</b>\n\n
+
+Use the internet or college library to locate code written by another developer. Try to understand why it was written that way and understand it completely. Once you have understood why it was written they way it is written, check to see if you could improve that logic.
+
+The main objective of this exercise is to get your brain thinking.\n\n
+
+        <b>Tip 4: Solve logic puzzles</b> \n\n
+        Check your local newspaper. One section of your newspaper will be filled with series of logic puzzles and riddles. Try solving them. Don’t get disheartened if you can’t solve them or take a long time to solve them. Remember that you are in the learning and improving stage. Things will be slow, but you will make progress.Your brain will be trained to think differently with every puzzle that you try to solve. This is because now you know a new method of solving. You could apply the same thinking pattern to your programs as well.
+
+As a standard prescription, I would prescribe solving Suduku puzzles. Will help you improve your logic, concentration and skills of grouping and organizing.\n\n
+
+        <b>Tip 5: Help other people build logic</b>\n\n
+
+Once you start feeling confident about yourself and your logic capabilities, you should immediately start helping people. Subscribe to a forum and start helping people there. The benefit of helping people on forums is that you get to learn new problems that people face. This immensely adds to your knowledge. Just imagine the power you would have once you start to learn problems faced by other people and how you or someone else resolved it.
+   \n\n </string>
+
+    <string name="standard_header_files" formatted="false">A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files. There are two types of header files: the files that the programmer writes and the files that comes with your compiler.\n\n
+
+You request to use a header file in your program by including it with the C preprocessing directive #include,\n like you have seen inclusion of stdio.h header file, which comes along with your compiler.\n\n
+    Some standard header files are:\n\n
+    stdio.h -- printf,scanf,getchar,putchar etc.\n\n
+    stdlib.h -- utility functions, number conversions,memory allocation,exit and system\n\n
+    math.h -- mathematical functions\n\n
+    string.h -- string functions\n\n
+    assert.h -- assertion \n\n
+    time.h -- date and time functions\n\n
+    limits.h -- system limits for integral types\n\n
+    stdarg.h -- variable length parameter lists \n\n</string>
+
+    <string name="structures" formatted="false">Structure is another user defined data type available in C that allows to combine data items of different kinds.\n\n
+
+Structures are used to represent a record. Suppose you want to keep track of your books in a library. You might want to track the following attributes about each book −\n\n
+
+Title\n
+Author\n
+Subject\n
+Book ID\n
+Defining a Structure\n\n
+To define a structure, you must use the struct statement. The struct statement defines a new data type, with more than one member. The format of the struct statement is as follows −\n\n
+
+struct [structure tag] {\n\n
+
+   member definition;\n
+   member definition;\n\n
+   ...
+   member definition;\n
+} [one or more structure variables];\n\n
+The structure tag is optional and each member definition is a normal variable definition, such as int i; or float f; or any other valid variable definition. At the end of the structures definition, before the final semicolon, you can specify one or more structure variables but it is optional. Here is the way you would declare the Book structure −\n\n
+
+struct Books {\n
+   char  title[50];\n
+   char  author[50];\n
+   char  subject[100];\n
+   int   book_id;\n
+} book;\n\n</string>
+
+    <string name="unions" formatted="false">A union is a special data type available in C that allows to store different data types in the same memory location. You can define a union with many members, but only one member can contain a value at any given time. Unions provide an efficient way of using the same memory location for multiple-purpose.\n\n
+
+Defining a Union\n\n
+To define a union, you must use the union statement in the same way as you did while defining a structure. The union statement defines a new data type with more than one member for your program. The format of the union statement is as follows −\n\n
+
+union [union tag] {\n
+   member definition;\n
+   member definition;\n
+   ...\n\n
+   member definition;\n
+} [one or more union variables];\n\n
+The union tag is optional and each member definition is a normal variable definition, such as int i; or float f; or any other valid variable definition. At the end of the unions definition, before the final semicolon, you can specify one or more union variables but it is optional. Here is the way you would define a union type named Data having three members i, f, and str −\n\n
+
+union Data {\n
+   int i;\n
+   float f;\n
+   char str[20];\n
+} data;\n\n
+Now, a variable of Data type can store an integer, a floating-point number, or a string of characters. It means a single variable, i.e., same memory location, can be used to store multiple types of data. You can use any built-in or user defined data types inside a union based on your requirement.\n\n
+    </string>
+
+
+
+<string name="proprocessor_dirctives" formatted="false">The C Preprocessor is not a part of the compiler, but is a separate step in the compilation process.\n In simple terms, a C Preprocessor is just a text substitution tool and it instructs the compiler to do required pre-processing before the actual compilation. Well refer to the C Preprocessor as CPP.\n\n
+
+All preprocessor commands begin with a hash symbol (#).\n It must be the first nonblank character, and for readability, a preprocessor directive should begin in the first column.\n The following section lists down all the important preprocessor directives −\n\n
+    #define -- Substitutes a preprocessor macro.\n
+    #include -- Inserts a particular header from another file.\n
+    #undef -- Undefines a preprocessor macro.\n
+    #ifdef -- Returns true if this macro is defined.\n
+    #ifndef -- Returns true if this macro is not defined.\n
+    #if -- Tests if a compile time condition is true.\n
+    #else -- The alternative for #if.\n
+    #elif -- #else and #if in one statement.\n
+    #endif -- Ends preprocessor conditional.\n
+    #error -- Prints error message on stderr.\n
+    #pragma -- Issues special commands to the compiler, using a standardized method.\n</string>
+
+
+    <string name="variables" formatted="false">A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variables memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.\n\n
+
+The name of a variable can be composed of letters, digits, and the underscore character. It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based on the basic types explained in the previous chapter, there will be the following basic variable types −\n\n
+
+Type	Description\n
+char	Typically a single octet(one byte). This is an integer type.\n
+int	The most natural size of integer for the machine.\n
+float	A single-precision floating point value.\n
+double	A double-precision floating point value.\n
+void	Represents the absence of type.\n\n
+C programming language also allows to define various other types of variables, which we will cover in subsequent chapters like Enumeration, Pointer, Array, Structure, Union, etc. For this chapter, let us study only basic variable types.\n\n
+
+Variable Definition in C\n\n
+A variable definition tells the compiler where and how much storage to create for the variable. A variable definition specifies a data type and contains a list of one or more variables of that type as follows −\n\n
+
+type variable_list;\n\n
+Here, type must be a valid C data type including char, w_char, int, float, double, bool, or any user-defined object; and variable_list may consist of one or more identifier names separated by commas. Some valid declarations are shown here −\n\n
+
+int    i, j, k;\n
+char   c, ch;\n
+float  f, salary;\n
+double d;\n\n
+The line int i, j, k; declares and defines the variables i, j, and k; which instruct the compiler to create variables named i, j and k of type int.\n\n
+
+Variables can be initialized (assigned an initial value) in their declaration. The initializer consists of an equal sign followed by a constant expression as follows −\n\n
+
+type variable_name = value;\n
+Some examples are −\n\n
+
+extern int d = 3, f = 5;    // declaration of d and f. \n
+int d = 3, f = 5;           // definition and initializing d and f.\n
+char x = x;               // the variable x has the value x.\n\n </string>
+
+
+    <string name="operators" formatted="false">An operator is a symbol that tells the compiler to perform specific mathematical or logical functions. C language is rich in built-in operators and provides the following types of operators −\n\n
+
+#Arithmetic Operators\n
+#Relational Operators\n
+#Logical Operators\n
+#Bitwise Operators\n
+#Assignment Operators\n
+We will, in this chapter, look into the way each operator works\n\n\n
+
+    Arithmetic Operators\n\n
+The following  shows all the arithmetic operators supported by the C language\n
+    Operator	Description\n
+    +	Adds two operands.\n
+    −	Subtracts second operand from the first.\n
+    *	Multiplies both operands.\n
+    /	Divides numerator by de-numerator.\n
+    %	Modulus Operator and remainder of after an integer division\n
+    ++	Increment operator increases the integer value by one.\n
+    --	Decrement operator decreases the integer value by one.\n\n\n
+
+    Relational Operators\n
+The following  shows all the relational operators supported by C.\n
+    ==	Checks if the values of two operands are equal or not. If yes, then the condition becomes true.\n
+    !=	Checks if the values of two operands are equal or not. If the values are not equal, then the condition becomes true.\n
+    >	Checks if the value of left operand is greater than the value of right operand. If yes, then the condition becomes true.\n
+    >=	Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.\n\n\n
+
+        Logical Operators\n\n
+Following  shows   logical operators supported by C language.\n\n
+
+        ||	Called Logical OR Operator. If any of the two operands is non-zero, then the condition becomes true.\n
+        !	Called Logical NOT Operator. It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.\n
+    </string>
+
+    <string name="storage_classes" formatted="false">A storage class defines the scope (visibility) and life time of variables and/or functions within a C Program.\n\n
+
+There are following storage classes which can be used in a C Program\n\n
+
+auto\n
+
+register\n
+
+static\n
+
+extern\n
+
+auto - Storage Class\n\\n
+
+auto is the default storage class for all local variables.\n\n
+
+	{\n
+            int Count;\n
+            auto int Month;\n
+	}\n
+The example above defines two variables with the same storage class. auto can only be used within functions, i.e. local variables.\n\n\n
+
+register - Storage Class\n\n
+
+register is used to define local variables that should be stored in a register instead of RAM. This means that the variable has a maximum size equal to the register size (usually one word) and cant have the unary &amp; operator applied to it (as it does not have a memory location).\n\n
+
+	{\n
+            register int  Miles;\n
+	}\n
+Register should only be used for variables that require quick access - such as counters. It should also be noted that defining register goes not mean that the variable will be stored in a register. It means that it MIGHT be stored in a register - depending on hardware and implimentation restrictions.\n\n\n
+
+static - Storage Class\n\n
+
+static is the default storage class for global variables. The two variables below (count and road) both have a static storage class.\n\n
+
+	static int Count;\n
+        int Road;\n
+
+        {\n
+            printf("%d\n", Road);\n
+        }
+        \n
+static variables can be seen within all functions in this source file. At link time, the static variables defined here will not be seen by the object modules that are brought in.\n\n
+
+static can also be defined within a function. If this is done the variable is initalised at run time but is not reinitalized when the function is called. This inside a function static variable retains its value during vairous calls.\n\n\n
+    extern - Storage Class\n\n
+
+extern is used to give a reference of a global variable that is visible to ALL the program files. When you use extern the variable cannot be initalized as all it does is point the variable name at a storage location that has been previously defined.\n\n
+
+When you have multiple files and you define a global variable or function which will be used in other files also, then extern will be used in another file to give reference of defined variable or function. Just for understanding extern is used to decalre a global variable or function in another files.\n\n
+
+File 1: main.c\n\n
+
+   int count=5;\n\n
+
+   main()\n
+   {\n
+     write_extern();\n
+   }\n\n
+File 2: write.c\n\n
+
+   void write_extern(void);\n\n
+
+   extern int count;\n
+
+   void write_extern(void)\n
+   {\n
+     printf("count is %i\n", count);\n
+   }\n
+Here extern keyword is being used to declare count in another file.\n\n</string>
+    
+    <string name="definition_vs_declaration" formatted="false">Definition vs Declaration : \n\nBefore proceeding, let us understand the difference between defintion and declaration of a variable or function. Definition means where a variable or function is defined in realityand actual memory is allocated for variable or function. Declaration means just giving a reference of a variable and function.
+        Through declaration we assure to the complier that this variable or function has been defined somewhere else in the program and will be provided at the time of linking. In the above examples char *func(void) has been put at the top which is a declaration of this function where as this function has been defined below to main() function.\n\n
+
+There is one more very important use for static. Consider this bit of code.\n\n
+
+   char *func(void);\n\n
+
+   main()\n
+   {\n
+      char *Text1;\n
+      Text1 = func();\n
+   }\n\n
+
+   char *func(void)\n
+   {\n
+      char Text2[10]="martin";\n
+      return(Text2);\n
+   }\n
+Now, func returns a pointer to the memory location where text2 starts BUT text2 has a storage class of auto and will disappear when we exit the function and could be overwritten but something else. The answer is to specify\n\n
+
+    static char Text[10]="martin";\n
+The storage assigned to text2 will remain reserved for the duration if the program.\n\n</string>
+
+    <string name="structure_of_program" formatted="false">A C program basically consists of the following parts −\n\n
+
+Preprocessor Commands\n
+Functions\n
+Variables\n
+Statements &amp; Expressions\n
+Comments\n\n
+Let us look at a simple code that would print the words "Hello World" −\n
+
+#include &lt;stdio.h&gt;\n
+
+int main() {\n
+   /* my first program in C */\n
+   printf("Hello, World! \n");\n\n
+
+   return 0;\n
+}\n\n
+Let us take a look at the various parts of the above program −\n
+
+The first line of the program #include &lt;stdio.h&gt; is a preprocessor command, which tells a C compiler to include stdio.h file before going to actual compilation.\n\n
+
+The next line int main() is the main function where the program execution begins.\n\n
+
+The next line /*...*/ will be ignored by the compiler and it has been put to add additional comments in the program. So such lines are called comments in the program.\n\n
+
+The next line printf(...) is another function available in C which causes the message "Hello, World!" to be displayed on the screen.\n\n
+
+The next line return 0; terminates the main() function and returns the value 0.\n\n</string>
+
+    <string name="formatted_io" formatted="false">The int scanf(const char *format, ...) function reads the input from the standard input stream stdin and scans that input according to the format provided.\n\n
+
+The int printf(const char *format, ...) function writes the output to the standard output stream stdout and produces the output according to the format provided.\n\n
+
+The format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to print or read strings, integer, character or float respectively. There are many other formatting options available which can be used based on requirements. Let us now proceed with a simple example to understand the concepts better −\n\n
+
+#include &lt;stdio.h&gt;\n
+int main( ) {\n
+
+   char str[100];\n
+   int i;\n
+
+   printf( "Enter a value :");\n
+   scanf("%s %d", str, &amp;i);\n
+
+   printf( "\nYou entered: %s %d ", str, i);\n
+
+   return 0;\n
+}\n\n</string>
+
+    <string name="character_io" formatted="false">The int getchar(void) function reads the next available character from the screen and returns it as an integer. This function reads only single character at a time. You can use this method in the loop in case you want to read more than one character from the screen.\n\n
+
+The int putchar(int c) function puts the passed character on the screen and returns the same character. This function puts only single character at a time. You can use this method in the loop in case you want to display more than one character on the screen. Check the following example −\n\n
+
+#include &lt;stdio.h&gt;\n
+int main( ) {\n
+
+   int c;\n
+
+   printf( "Enter a value :");\n
+   c = getchar( );\n
+
+   printf( "\nYou entered: ");\n
+   putchar( c );\n
+
+   return 0;\n
+}\n\n
+When the above code is compiled and executed, it waits for you to input some text. When you enter a text and press enter, then the program proceeds and reads only a single character and displays it as follows −\n\n
+
+$./a.out\n\n
+Enter a value : this is test\n
+You entered: t\n\n</string>
+
+    <string name="logics" formatted="false">Before you write one piece of computer code, you have to know what the program is supposed to do. Before you write one line of code in any language, it is a good idea to write it in a simple way first to ensure you have included everything you need. The best way to set this up is by using pseudocode.
+Defining Pseudocode.\n\n\n
+Pseudocode is a simple way of writing programming code in English. Pseudocode is not actual programming language. It uses short phrases to write code for programs before you actually create it in a specific language. Once you know what the program is about and how it will function, then you can use pseudocode to create statements to achieve the required results for your program.\n\n
+
+Understanding Pseudocode.\n\n
+Pseudocode makes creating programs easier. Programs can be complex and long; preparation is the key. For years, flowcharts were used to map out programs before writing one line of code in a language. However, they were difficult to modify and with the advancement of programming languages, it was difficult to display all parts of a program with a flowchart. It is challenging to find a mistake without understanding the complete flow of a program. That is where pseudocode becomes more appealing.\n\n
+
+To use pseudocode, all you do is write what you want your program to say in English. Pseudocode allows you to translate your statements into any language because there are no special commands and it is not standardized. Writing out programs before you code can enable you to better organize and see where you may have left out needed parts in your programs. All you have to do is write it out in your own words in short statements. Lets look at some examples.\n\n
+
+Examples of Pseudocode\n\n
+Lets review an example of pseudocode to create a program to add 2 numbers together and then display the result.\n\n
+
+Start Program\n
+Enter two numbers, A, B\n
+Add the numbers together\n\n
+Print Sum\n
+End Program\n\n
+
+Compare that pseudocode to an example of a flowchart to add two numbers\n
+    Now, lets look at a few more simple examples of pseudocode. Here is a pseudocode to compute the area of a rectangle:\n\n
+
+Get the length, l, and width, w\n
+Compute the area = l*w\n
+Display the area\n\n
+
+Now, lets look at an example of pseudocode to compute the perimeter of a rectangle:\n\n
+
+Enter length, l\n
+Enter width, w\n
+Compute Perimeter = 2*l + 2*w\n
+Display Perimeter of a rectangle\n\n
+
+Remember, writing basic pseudocode is not like writing an actual coding language. It cannot be compiled or run like a regular program. Pseudocode can be written how you want. But some companies use specific pseudocode syntax to keep everyone in the company on the same page. Syntax is a set of rules on how to use and organize statements in a programming language. By adhering to specific syntax, everyone in the company can read and understand the flow of a program.
+        This becomes cost effective and there is less time spent finding and correcting errors.\n\n
+    Basic Guidelines\n\n
+If you would like a format for using pseudocode to create your program, here are some basic guidelines:\n\n
+
+First, do not use language-specific commands in your statements. Pseudocode should be universal. So when creating the task list, you would not include commands that are for any specific language like C++, Java, C#, or Perl. The point of pseudocode is to design a program that can be translated into any language.\n\n
+
+Second, remember to write only one task or statement per line. Make sure you put only one task on each line. Including too much information on one line can be confusing and increases the possibility of errors.\n\n
+
+Third, make sure to capitalize keywords. Capitalizing keywords like Read, Write, or Display helps to show when an action is occurring or when a specific command or process will be necessary when coding in your specific language.\n\n
+    </string>
+
+
+    <string name="arrays" formatted="false">Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.\n\n
+
+Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables. A specific element in an array is accessed by an index.\n\n
+
+All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element.\n\n\n
+
+    Declaring Arrays\n\n
+To declare an array in C, a programmer specifies the type of the elements and the number of elements required by an array as follows −\n\n
+
+type arrayName [ arraySize ];\n
+This is called a single-dimensional array. The arraySize must be an integer constant greater than zero and type can be any valid C data type. For example, to declare a 10-element array called balance of type double, use this statement −\n\\n
+
+double balance[10];\n
+Here balance is a variable array which is sufficient to hold up to 10 double numbers.\n\n\n
+
+    Initializing Arrays\n\n
+You can initialize an array in C either one by one or using a single statement as follows −\n\n
+
+double balance[5] = {1000.0, 2.0, 3.4, 7.0, 50.0};\n
+The number of values between braces { } cannot be larger than the number of elements that we declare for the array between square brackets [ ].\n\n
+
+If you omit the size of the array, an array just big enough to hold the initialization is created. Therefore, if you write −\n\n
+
+double balance[] = {1000.0, 2.0, 3.4, 7.0, 50.0};\n\n</string>
+
+    <string name="pointers" formatted="false">Pointers in C are easy and fun to learn. Some C programming tasks are performed more easily with pointers, and other tasks, such as dynamic memory allocation, cannot be performed without using pointers. So it becomes necessary to learn pointers to become a perfect C programmer. Lets start learning them in simple and easy steps.\n\n
+
+As you know, every variable is a memory location and every memory location has its address defined which can be accessed using ampersand(&amp;)  operator, which denotes an address in memory. Consider the following example, which prints the address of the variables defined −\n\n
+    int main () {\n\n
+
+   int  var1;\n
+   char var2[10];\n\n
+
+   printf("Address of var1 variable: %x\n", &amp;var1  );\n
+   printf("Address of var2 variable: %x\n", &amp;var2  );\n\n
+
+   return 0;\n
+}\n
+When the above code is compiled and executed, it produces the following result −\n\n
+
+Address of var1 variable: bff5a400\n
+Address of var2 variable: bff5a3f6\n\n\n
+
+        What are Pointers?\n\n
+A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location. Like any variable or constant, you must declare a pointer before using it to store any variable address. The general form of a pointer variable declaration is −\n\n
+
+type *var-name;\n
+Here, type is the pointers base type; it must be a valid C data type and var-name is the name of the pointer variable. The asterisk * used to declare a pointer is the same asterisk used for multiplication. However, in this statement the asterisk is being used to designate a variable as a pointer. Take a look at some of the valid pointer declarations −\n\n
+
+int    *ip;    /* pointer to an integer */\n
+double *dp;    /* pointer to a double */\n
+float  *fp;    /* pointer to a float */\n
+char   *ch     /* pointer to a character */\n\n
+The actual data type of the value of all pointers, whether integer, float, character, or otherwise, is the same, a long hexadecimal number that represents a memory address. The only difference between pointers of different data types is the data type of the variable or constant that the pointer points to.\n\n\n
+
+How to Use Pointers?\n\n
+There are a few important operations, which we will do with the help of pointers very frequently. (a) We define a pointer variable, (b) assign the address of a variable to a pointer and (c) finally access the value at the address available in the pointer variable. This is done by using unary operator * that returns the value of the variable located at the address specified by its operand.\n\n
+</string>
+
+    
+    <string name="strings" formatted="false">Strings are actually one-dimensional array of characters terminated by a null character \0. Thus a null-terminated string contains the characters that comprise the string followed by a null.\n\n
+
+The following declaration and initialization create a string consisting of the word "Hello". To hold the null character at the end of the array, the size of the character array containing the string is one more than the number of characters in the word "Hello."\n\n
+
+char greeting[6] = {H, e, l, l, o, \0};\n
+If you follow the rule of array initialization then you can write the above statement as follows −\n\n
+
+char greeting[] = "Hello";\n
+    //\n
+    int main () {\n
+
+   char greeting[6] = {H, e, l, l, o, \0};\n
+   printf("Greeting message: %s\n", greeting );\n
+   return 0;\n
+}\n\n
+When the above code is compiled and executed, it produces the following result −\n\n
+
+Greeting message: Hello\n\n\n
+
+    Function &amp; Purpose\n\n
+        strcpy(s1, s2);\n
+Copies string s2 into string s1.\n\n
+
+        strcat(s1, s2);\n
+Concatenates string s2 onto the end of string s1.\n\n
+
+        strlen(s1);\n
+Returns the length of string s1.\n\n
+
+        strcmp(s1, s2);\n
+Returns 0 if s1 and s2 are the same; less than 0 if s1&lt;s2; greater than 0 if s1&gt;s2.\n\n
+
+        strchr(s1, ch);\n
+Returns a pointer to the first occurrence of character ch in string s1.\n\n
+
+
+        strstr(s1, s2);\n
+Returns a pointer to the first occurrence of string s2 in string s1.\n\n
+    </string>
+
+    <string name="file_operation_and_function" formatted="false">A file represents a sequence of bytes, regardless of it being a text file or a binary file. C programming language provides access on high level functions as well as low level (OS level) calls to handle file on your storage devices. This chapter will take you through the important calls for file management.\n\n
+
+Opening Files\n
+You can use the fopen( ) function to create a new file or to open an existing file. This call will initialize an object of the type FILE, which contains all the information necessary to control the stream. The prototype of this function call is as follows −\n\n
+
+FILE *fopen( const char * filename, const char * mode );\n
+    Here, filename is a string literal, which you will use to name your file, and access mode can have one of the following values −\n\n
+
+        r	Opens an existing text file for reading purpose.\n
+w	Opens a text file for writing. If it does not exist, then a new file is created. Here your program will start writing content from the beginning of the file.\n\n
+a	Opens a text file for writing in appending mode. If it does not exist, then a new file is created. Here your program will start appending content in the existing file content.\n\n
+r+	Opens a text file for both reading and writing.\n\n
+w+	Opens a text file for both reading and writing. It first truncates the file to zero length if it exists, otherwise creates a file if it does not exist.\n\n
+a+	Opens a text file for both reading and writing. It creates the file if it does not exist. The reading will start from the beginning but writing can only be appended.\n\n
+    If you are going to handle binary files, then you will use following access modes instead of the above mentioned ones −\n\n
+
+"rb", "wb", "ab", "rb+", "r+b", "wb+", "w+b", "ab+", "a+b"\n\n
+Closing a File\n
+To close a file, use the fclose( ) function. The prototype of this function is −\n\n
+
+int fclose( FILE *fp );\n
+The fclose(-) function returns zero on success, or EOF if there is an error in closing the file. This function actually flushes any data still pending in the buffer to the file, closes the file, and releases any memory used for the file. The EOF is a constant defined in the header file stdio.h.\n\n
+
+There are various functions provided by C standard library to read and write a file, character by character, or in the form of a fixed length string.\n\n
+
+Writing a File\n
+Following is the simplest function to write individual characters to a stream −\n\n
+
+int fputc( int c, FILE *fp );\n
+The function fputc() writes the character value of the argument c to the output stream referenced by fp. It returns the written character written on success otherwise EOF if there is an error. You can use the following functions to write a null-terminated string to a stream −\n\n
+
+int fputs( const char *s, FILE *fp );\n
+The function fputs() writes the string s to the output stream referenced by fp. It returns a non-negative value on success, otherwise EOF is returned in case of any error. You can use int fprintf(FILE *fp,const char *format, ...) function as well to write a string into a file.\n\n
+    </string>
+
+<string name="branching_if" formatted="false">Branching is so called because the program chooses to follow one branch or another.\n\n
+    if statement\n\n
+
+This is the most simple form of the branching statements.\n\n
+
+It takes an expression in parenthesis and an statement or block of statements. if the expression is true then the statement or block of statements gets executed otherwise these statements are skipped.\n\n\n
+
+NOTE: Expression will be assumed to be true if its evaulated values is non-zero.\n\n
+
+if statements take the following form:\n\n
+
+ Example\n\n
+
+if (expression)\n
+  statement;\n\n
+
+or\n
+
+if (expression)\n
+  {\n
+    Block of statements;\n
+  }\n\n
+
+or\n
+
+if (expression)\n
+  {\n
+    Block of statements;\n
+  }
+else\n
+  {\n
+    Block of statements;\n
+  }\n\n
+
+or\n
+
+if (expression)\n
+  {\n
+    Block of statements;\n
+  }\n
+else if(expression)\n
+  {\n
+    Block of statements;\n
+  }\n
+else\n
+  {\n
+    Block of statements;\n
+  }\n\n</string>
+
+<string name="selection_switch" formatted="false">A switch statement allows a variable to be tested for equality against a list of values. Each value is called a case, and the variable being switched on is checked for each switch case.\n\n
+
+Syntax\n
+The syntax for a switch statement in C programming language is as follows −\n\n
+
+switch(expression) {\n
+
+   case constant-expression  :\n
+      statement(s);\n
+      break; /* optional */\n
+
+   case constant-expression  :\n
+      statement(s);\n
+      break; /* optional */\n
+
+   /* you can have any number of case statements */\n
+   default : /* Optional */\n
+   statement(s);\n
+}\n
+The following rules apply to a switch statement −\n
+
+The expression used in a switch statement must have an integral or enumerated type, or be of a class type in which the class has a single conversion function to an integral or enumerated type.\n\n
+
+You can have any number of case statements within a switch. Each case is followed by the value to be compared to and a colon.\n\n
+
+The constant-expression for a case must be the same data type as the variable in the switch, and it must be a constant or a literal.\n\n
+
+When the variable being switched on is equal to a case, the statements following that case will execute until a break statement is reached.\n\n
+
+When a break statement is reached, the switch terminates, and the flow of control jumps to the next line following the switch statement.\n\n
+
+Not every case needs to contain a break. If no break appears, the flow of control will fall through to subsequent cases until a break is reached.\n\n
+
+A switch statement can have an optional default case, which must appear at the end of the switch. The default case can be used for performing a task when none of the cases is true. No break is needed in the default case.\n\n</string>
+
+    <string name="loops" formatted="false">Loops provide a way to repeat commands and control how many times they are repeated. C provides a number of looping way.\n\n
+
+while loop\n\n
+
+The most basic loop in C is the while loop.A while statement is like a repeating if statement. Like an If statement, if the test condition is true: the statments get executed. The difference is that after the statements have been executed, the test condition is checked again. If it is still true the statements get executed again.This cycle repeats until the test condition evaluates to false.\n\n
+
+Basic syntax of while loop is as follows:\n\n
+
+ Example: \n
+
+while ( expression )\n
+{\n
+   Single statement \n
+   or\n
+   Block of statements;\n
+}\n\n\n
+for loop\n\n
+
+for loop is similar to while, its just written differently. for statements are often used to proccess lists such a range of numbers:\n\n
+
+Basic syntax of for loop is as follows:\n\n
+
+ Example:\n\n
+
+for( expression1; expression2; expression3)\n
+{\n
+   Single statement\n
+   or\n
+   Block of statements;\n
+}\n\n\n
+
+In the above syntax:\n\n
+
+expression1 - Initialisese variables.\n
+expression2 - Condtional expression, as long as this condition is true, loop will keep executing.\n
+expression3 - expression3 is the modifier which may be simple increment of a variable.\n\n\n
+do...while loop\n\n
+
+do ... while is just like a while loop except that the test condition is checked at the end of the loop rather than the start. This has the effect that the content of the loop are always executed at least once.\n\n
+
+Basic syntax of do...while loop is as follows:\n\n
+
+Show Example\n
+
+do\n
+{\n
+   Single statement\n
+   or\n
+   Block of statements;\n
+}while(expression);\n\n</string>
+
+
+    <string name="blocks_scope" formatted="false">A scope in any programming is a region of the program where a defined variable can have its existence and beyond that variable it cannot be accessed. There are three places where variables can be declared in C programming language −
+
+Inside a function or a block which is called local variables.\n\n
+
+Outside of all functions which is called global variables.\n\n
+
+In the definition of function parameters which are called formal parameters.\n\n
+
+Let us understand what are local and global variables, and formal parameters.\n\n
+
+Local Variables\n
+Variables that are declared inside a function or block are called local variables. They can be used only by statements that are inside that function or block of code. Local variables are not known to functions outside their own. The following example shows how local variables are used. Here all the variables a, b, and c are local to main() function.
+\n\n
+#include &lt;stdio.h&gt;\n
+
+int main () {\n
+
+  /* local variable declaration */\n
+  int a, b;\n
+  int c;\n
+
+  /* actual initialization */\n
+  a = 10;\n
+  b = 20;\n
+  c = a + b;\n\n
+
+  printf ("value of a = %d, b = %d and c = %d\n", a, b, c);\n
+
+  return 0;\n
+}\n\n\n
+Global Variables\n
+Global variables are defined outside a function, usually on top of the program. Global variables hold their values throughout the lifetime of your program and they can be accessed inside any of the functions defined for the program.
+\n\n
+A global variable can be accessed by any function. That is, a global variable is available for use throughout your entire program after its declaration. The following program show how global variables are used in a program.
+\n\n
+#include &lt;stdio.h&gt;\n
+
+/* global variable declaration */\n
+int g;\n\n
+
+int main () {\n
+
+  /* local variable declaration */\n
+  int a, b;\n
+
+  /* actual initialization */\n
+  a = 10;\n
+  b = 20;\n
+  g = a + b;\n
+
+  printf ("value of a = %d, b = %d and g = %d\n", a, b, g);\n\n
+
+  return 0;\n
+}\n\n
+A program can have same name for local and global variables but the value of local variable inside a function will take preference.\n\n</string>
+
+    <string name="break_continue" formatted="false">C provides two commands to control how we loop:\n\n
+
+break -- exit form loop or switch.\n
+continue -- skip 1 iteration of loop.\n
+You already have seen example of using break statement. Here is an example showing usage of continue statement.\n\n
+
+#include \n\n
+
+main()\n
+{\n
+    int i;\n
+    int j = 10;\n\n
+
+    for( i = 0; i &lt;= j; i ++ )\n
+    {\n
+       if( i == 5 )\n
+       {\n
+          continue;\n
+       }\n
+       printf("Hello %d\n", i );\n
+    }\n
+}\n\n</string>
+
+    <string name="questions_detail" formatted="false">Why Programming?\n\n
+
+You may already have used software, perhaps for word processing or spreadsheets, to solve problems. Perhaps now you are curious to learn how programmers write software. A program is a set of step-by-step instructions that directs the computer to do the tasks you want it to do and produce the results you want.\n\n
+
+There are at least three good reasons for learning programming:\n
+Programming helps you understand computers. The computer is only a tool. If you learn how to write simple programs, you will gain more knowledge about how a computer works.\n
+Writing a few simple programs increases your confidence level. Many people find great personal satisfaction in creating a set of instructions that solve a problem.\n
+Learning programming lets you find out quickly whether you like programming and whether you have the analytical turn of mind programmers need. Even if you decide that programming is not for you, understanding the process certainly will increase your appreciation of what programmers and computers can do.\n\n
+
+A set of rules that provides a way of telling a computer what operations to perform is called a programming language. There is not, however, just one programming language; there are many. In this chapter you will learn about controlling a computer through the process of programming. You may even discover that you might want to become a programmer.\n\n
+
+An important point before we proceed: You will not be a programmer when you finish reading this chapter or even when you finish reading the final chapter. Programming proficiency takes practice and training beyond the scope of this book. However, you will become acquainted with how programmers develop solutions to a variety of problems.\n\n
+
+What Programmers Do ?\n\n
+
+In general, the programmers job is to convert problem solutions into instructions for the computer. That is, the programmer prepares the instructions of a computer program and runs those instructions on the computer, tests the program to see if it is working properly, and makes corrections to the program. The programmer also writes a report on the program. These activities are all done for the purpose of helping a user fill a need, such as paying employees, billing customers, or admitting students to college.\n\n
+
+The programming activities just described could be done, perhaps, as solo activities, but a programmer typically interacts with a variety of people. For example, if a program is part of a system of several programs, the programmer coordinates with other programmers to make sure that the programs fit together well. If you were a programmer, you might also have coordination meetings with users, managers, systems analysts, and with peers who evaluate your work-just as you evaluate theirs.\n\n
+
+Let us turn to the programming process.\n\n
+
+What is the Programming Process ?\n\n
+
+Developing a program involves steps similar to any problem-solving task. There are five main ingredients in the programming process: \n
+Defining the problem\n
+Planning the solution\n
+Coding the program\n
+Testing the program\n
+Documenting the program\n\n\n
+
+        Programming as a Career?\n\n
+
+There is a shortage of qualified personnel in the computer field. Before you join their ranks, consider the advantages of the computer field and what it takes to succeed in it.\n\n
+
+The Joys of the Field\n
+Although many people make career changes into the computer field, few choose to leave it. In fact, surveys of computer professionals, especially programmers, consistently report a high level of job satisfaction. There are several reasons for this contentment. One is the challenge-most jobs in the computer industry are not routine. Another is security, since established computer professionals can usually find work. And that work pays well-you will probably not be rich, but you should be comfortable. The computer industry has historically been a rewarding place for women and minorities. And, finally, the industry holds endless fascination since it is always changing.\n\n
+
+What It Takes \n
+You need, of course, some credentials, most often a two- or four-year degree in computer information systems or computer science. The requirements and salaries vary by the organization and the region, so we will not dwell on these here. Beyond that, the person most likely to land a job and move up the career ladder is the one with excellent communication skills, both oral and written . These are also the qualities that can be observed by potential employers in an interview. Promotions are sometimes tied to advanced degrees (an M.B.A. or an M.S. in computer science).\n\n
+
+Open Doors\n
+The overall outlook for the computer field is promising. The Bureau of Labor Statistics shows, through the year 2010, a 72 percent increase in programmers and a 69 percent increase in system use today, and we will discuss the most popular ones later In the chapter. Before we turn to specific languages, however, we need to discuss levels of language.\n\n
+</string>
+
+
+    <string name="helloworl_exe" formatted="false">#include &lt;stdio.h&gt;\n\n
+
+int main() {\n
+   /* my first program in C */\n
+   printf("Hello, World! ");\n\n
+
+   return 0;\n\
+}
+    \n\n</string>
+    <string name="print_integer" formatted="false">#include &lt;stdio.h&gt;\n\n
+int main()\n
+{\n
+    int c=5;\n
+    printf("Number=%d",c);\n
+    return 0;\n
+}\n\n</string>
+
+    <string name="addition_of_two_number" formatted="false">#include &lt;stdio.h&gt;\n\n
+
+int main()\n
+{\n
+   int a, b, c;\n\n
+
+   printf("Enter two numbers to add\n");\n
+   scanf("%d%d",&amp;a,&amp;b);\n\n
+
+   c = a + b;\n\n
+
+   printf("Sum of entered numbers = %d\n",c);\n\n
+
+   return 0;\n
+}\n\n</string>
+
+    <string name="area_of_triangle" formatted="false">#include &lt;stdio.h&gt;\n
+#include&lt;math.h&gt;\n\n
+
+int main(){\n
+
+    float a,b,c;\n
+    float s,area;\n
+
+    printf("Enter size of each sides of triangle");\n
+    scanf("%f%f%f",&amp;a,&amp;b,&amp;c);\n
+
+    s = (a+b+c)/2;\n
+    area = sqrt(s*(s-a)*(s-b)*(s-c));\n
+
+    printf("Area of triangle is: %.3f",area);\n\n
+
+    return 0;\n
+}\n\n
+</string>
+
+    <string name="odd_even" formatted="false">#include &lt;stdio.h&gt;\n
+int main(){\n
+      int num;\n
+      printf("Enter an integer you want to check: ");\n
+      scanf("%d",&amp;num);\n
+      if((num%2)==0)      /* Checking whether remainder is 0 or not. */\n
+           printf("%d is even.",num);\n
+      else\n
+           printf("%d is odd.",num);\n
+      return 0;\n\n
+}\n\n</string>
+
+
+    <string name="add_sub_mul_div" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int first, second, add, subtract, multiply;\n
+   float divide;\n\n
+
+   printf("Enter two integers\n");\n
+   scanf("%d%d", &amp;first, &amp;second);\n
+
+   add = first + second;\n
+   subtract = first - second;\n
+   multiply = first * second;\n
+   divide = first / (float)second;   //typecasting\n
+
+   printf("Sum = %d\n",add);\n
+   printf("Difference = %d\n",subtract);\n
+   printf("Multiplication = %d\n",multiply);\n
+   printf("Division = %.2f\n",divide);\n\n
+
+   return 0;\n
+}\n\n</string>
+
+     <string name="swapping_of_two_number" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+     int x, y, temp;\n
+
+   printf("Enter the value of x and y\n");\n
+   scanf("%d%d", &amp;x, &amp;y);\n
+
+   printf("Before Swapping\nx = %d\ny = %d\n",x,y);\n\n
+
+   temp = x;\n
+   x    = y;\n
+   y    = temp;\n\n
+
+   printf("After Swapping\nx = %d\ny = %d\n",x,y);\n
+
+   return 0;\n
+}\n\n</string>
+
+
+      <string name="greatest_of_three" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    float a, b, c;\n
+    printf("Enter three numbers: ");\n
+    scanf("%f %f %f", &amp;a, &amp;b, &amp;c);\n
+    if (a>=b)\n
+    {\n
+    if(a>=c)\n
+    printf("Largest number = %.2f",a);\n
+    else\n
+    printf("Largest number = %.2f",c);\n
+    }\n
+    else\n
+    {\n
+    if(b>=c)\n
+    printf("Largest number = %.2f",b);\n
+    else\n
+    printf("Largest number = %.2f",c);\n
+    }\n
+    return 0;\n
+}\n\n</string>
+
+     <string name="calculate_percentage" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+     int s1, s2, s3, s4, s5, sum, total = 500;\n
+   float per;\n\n
+
+   printf("\nEnter marks of 5 subjects : ");\n
+   scanf("%d %d %d %d %d", &amp;s1, &amp;s2, &amp;s3, &amp;s4, &amp;s5);
+\n
+   sum = s1 + s2 + s3 + s4 + s5;\n
+   printf("\nSum : %d", sum);\n\n
+
+   per = (sum * 100) / total;\n
+   printf("\nPercentage : %f", per);\n\n
+
+   return (0);\n
+}\n\n</string>
+
+    <string name="simple_interest" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+     float p,rate,time,si;\n\n
+ printf("Enter principal amount : ");\n
+ scanf("%f", &amp;p);\n
+ printf("Enter rate of interest : ");
+\n scanf("%f", &amp;rate);
+ \nprintf("Enter time period in  year : ");
+ \nscanf("%f", &amp;time);
+\n\n/*calculating simple interest*/
+ \nsi=(p*time*rate)/100;
+ \nprintf("\nSimple Interest = %2f",si);
+ \ngetch();
+ \nreturn 0;
+        \n
+}\n\n</string>
+
+     <string name="area_of_rectangle" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int length, breadth, area;\n\n
+
+   printf("\nEnter the Length of Rectangle : ");\n
+   scanf("%d", &amp;length);\n
+
+   printf("\nEnter the Breadth of Rectangle : ");\n
+   scanf("%d", &amp;breadth);\n
+
+   area = length * breadth;\n
+   printf("\nArea of Rectangle : %d", area);\n
+
+   return (0);\n
+}\n\n</string>
+
+     <string name="volume_of_cylinder" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+  float radius, height;\n
+    float surface_area, volume;\n
+
+    printf("Enter  value for  radius and height of a cylinder : \n");\n
+    scanf("%f%f", &amp;radius, &amp;height);\n
+    surface_area = 2 * (22 / 7) * radius * (radius + height);\n
+    volume = (22 / 7) * radius * radius * height;\n
+    printf("Surface area of cylinder is: %.3f", surface_area);\n
+    printf("\n Volume of cylinder is : %.3f", volume);\n
+    return 0;\n
+}\n\n</string>
+
+     <string name="lcm_hcf" formatted="false">#include &lt;stdio.h&gt;\n
+#include&lt;conio.h&gt;\n\n
+
+void main()\n
+{\n
+int num1 , num2 , lcm , gcd , remainder , numerator , denominator ;\n
+clrscr();\n\n
+
+printf( "Enter two numbers\n");\n
+scanf(" %d%d " , &amp;num1 , &amp;num2 );\n
+if (num1 > num2)\n
+{\n
+numerator=num1;\n
+denominator=num2;\n
+}\n
+else\n
+{\n
+numerator = num2 ;\n
+denominator = num1 ;\n
+}\n\n
+
+remainder = num1 % num2;\n
+while ( remainder != 0)\n
+{\n
+numerator = denominator;\n
+denominator = remainder;\n
+remainder = numerator % denominator;\n
+}\n
+gcd = denominator;\n
+lcm = (num1 * num2 ) / gcd;\n\n
+
+printf("GCD of %d and %d =%d\n" , num1, num2, gcd);\n
+printf(" LCM of %d and %d= %d\n" , num1, num2, lcm);\n
+getch();\n
+}\n\n</string>
+
+
+    <string name="ncr_npr" formatted="false">#include &lt;stdio.h&gt;\n
+#define ll long long\n\n
+
+void find_ncr_npr(int, int, ll*, ll*);\n
+ll find_npr(int, int);\n
+ll factorial(int);\n\n
+
+int main() {\n
+   int n, r;\n
+   ll ncr, npr;\n\n
+
+   printf("Input n and r\n");\n
+   scanf("%d%d", &amp;n, &amp;r);\n\n
+
+   find_ncr_npr(n, r, &amp;npr, &amp;ncr);\n\n
+
+   printf("%dC%d = %lld\n", n, r, ncr);\n
+   printf("%dP%d = %lld\n", n, r, npr);\n
+
+   return 0;\n
+}\n\n
+
+void find_ncr_npr(int n, int r, ll *npr, ll *ncr) {\n
+   *npr = find_npr(n, r);\n
+   *ncr = *npr/factorial(r);\n
+}\n\n
+
+ll find_npr(int n, int r) {\n
+   ll result = 1;\n
+   int c = 1;\n\n
+
+   while (c &lt;= r) {\n
+      result = result * (n - r + c);\n
+      c++;\n
+   }\n\n
+
+   return result;\n
+}\n\n
+
+ll factorial(int n) {\n
+   int c;\n
+   ll result = 1;\n
+
+   for (c = 1; c &lt;= n; c++)\n
+      result = result*c;\n\n
+
+   return result;\n
+}\n\n</string>
+
+
+     <string name="reverse_number" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int n, reverse = 0;\n\n
+
+   printf("Enter a number to reverse\n");\n
+   scanf("%d", &amp;n);\n\n
+
+   while (n != 0)\n
+   {\n
+      reverse = reverse * 10;\n
+      reverse = reverse + n%10;\n
+      n       = n/10;\n
+   }\n\n
+
+   printf("Reverse of entered number is = %d\n", reverse);\n\n
+
+   return 0;\n
+}\n\n</string>
+
+     <string name="prime_number" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int n, i = 3, count, c;\n\n
+
+   printf("Enter the number of prime numbers required\n");\n
+   scanf("%d",&amp;n);\n\n
+
+   if ( n >= 1 )\n
+   {\n
+      printf("First %d prime numbers are :\n",n);\n
+      printf("2\n");\n
+   }\n\n
+
+   for ( count = 2 ; count &lt;= n ;  )\n
+   {\n
+      for ( c = 2 ; c &lt;= i - 1 ; c++ )\n
+      {\n
+         if ( i%c == 0 )\n
+            break;\n
+      }\n
+      if ( c == i )\n
+      {\n
+         printf("%d\n",i);\n
+         count++;\n
+      }\n
+      i++;\n
+   }\n\n
+
+   return 0;\n
+}\n\n</string>
+
+     <string name="perfect_number" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+  int main(){\n
+  int n,i=1,sum=0;\n\n
+
+  printf("Enter a number: ");\n
+  scanf("%d",&amp;n);\n\n
+
+  while(i&lt;n){\n
+      if(n%i==0)\n
+           sum=sum+i;\n
+          i++;\n
+  }\n
+  if(sum==n)\n
+      printf("%d is a perfect number",i);\n
+  else\n
+      printf("%d is not a perfect number",i);\n\n
+
+   return 0;\n
+}\n\n</string>
+
+  <string name="armstrong_number" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+  int n, n1, rem, num=0;\n
+  printf("Enter a positive  integer: ");\n
+  scanf("%d", &amp;n);\n
+  n1=n;\n
+  while(n1!=0)\n
+  {\n
+      rem=n1%10;\n
+      num+=rem*rem*rem;\n
+      n1/=10;\n
+  }\n
+  if(num==n)\n
+    printf("%d is an Armstrong number.",n);\n
+  else\n
+    printf("%d is not an Armstrong number.",n);\n
+}\n\n</string>
+<string name="factorial_number" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+     int c, n, fact = 1;\n\n
+
+    printf("Enter a number to calculate it's factorial\n");\n
+    scanf("%d", &amp;n);\n\n
+
+    for (c = 1; c &lt;= n; c++)\n
+    fact = fact * c;\n
+
+    printf("Factorial of %d = %d\n", n, fact);\n
+
+    return 0;\n
+}\n\n</string>
+
+    <string name="fibonacci_series" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+     int n, first = 0, second = 1, next, c;\n\n
+
+   printf("Enter the number of terms\n");\n
+   scanf("%d",&amp;n);\n\n
+
+   printf("First %d terms of Fibonacci series are :-\n",n);\n\n
+
+   for ( c = 0 ; c &lt; n ; c++ )\n
+   {\n
+      if ( c &lt;= 1 )\n
+         next = c;\n
+      else\n
+      {\n
+         next = first + second;\n
+         first = second;\n
+         second = next;\n
+      }\n
+      printf("%d\n",next);\n
+   }\n\n
+
+   return 0;\n
+}\n\n</string>
+
+     <string name="print_pattern" formatted="false">#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int row, c, n, temp;\n\n
+
+   printf("Enter the number of rows in pyramid of stars you wish to see ");\n
+   scanf("%d",&amp;n);\n\n
+
+   temp = n;\n\n
+
+   for ( row = 1 ; row &lt;= n ; row++ )\n
+   {\n
+      for ( c = 1 ; c &lt; temp ; c++ )\n
+         printf(" ");\n\n
+
+      temp--;\n\n
+
+      for ( c = 1 ; c &lt;= 2*row - 1 ; c++ )\n
+         printf("*");\n\n
+
+      printf("\n");\n
+   }\n
+
+   return 0;\n
+}\n\n</string>
+<string name="question_one" formatted = "false">Question 1).What will be output if you will compile and execute the following c code?\n\n
+
+void main(){\n
+   int i=320;\n
+   char *ptr=(char *)&amp;i;\n
+    printf("%d",*ptr); \n
+}\n</string>
+
+    <string name="question_two" formatted = "false">Question 2).What will be output if you will compile and execute the following c code?\n\n
+
+#define x 5+2\n
+void main(){\n
+    int i;\n
+    i=x*x*x;\n
+    printf("%d",i);\n
+}\n</string>
+
+     <string name="question_three" formatted = "false">Question 3).  What will be output if you will compile and execute the following c code?\n\n
+         void main(){\n
+     char c=125;\n
+    c=c+10;\n
+    printf("%d",c);]\n
+}\n</string>
+
+     <string name="question_four" formatted = "false">Question 4).  What will be output if you will compile and execute the following c code?\n\n
+         void main(){\n
+    float a=5.2;\n
+  if(a==5.2)\n
+     printf("Equal");\n
+  else if(a&lt;5.2)\n
+     printf("Less than");\n
+  else\n
+     printf("Greater than");\n
+}\n</string>
+
+    <string name="question_five" formatted = "false">Question 5).  What will be output if you will compile and execute the following c code?\n\n
+
+void main(){\n
+   int i=4,x;\n
+  x=++i + ++i + ++i;\n
+  printf("%d",x); \n
+}\n</string>
+
+    <string name="question_six" formatted = "false">Question 6).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+   int a=2;\n
+ if(a==2){\n
+   a=~a+2&lt;&lt;1;\n
+   printf("%d",a);\n
+ }\n
+ else{\n
+  break;\n
+ }\n
+}\n</string>
+
+      <string name="question_seven" formatted = "false">Question 7).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+   int a=10;\n
+    printf("%d %d %d",a,a++,++a);\n
+}\n</string>
+
+     <string name="question_eight" formatted = "false">Question 8).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+  char *str="Hello world";\n
+   printf("%d",printf("%s",str));\n
+}\n</string>
+
+     <string name="question_nine" formatted = "false">Question 9).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+  char *str=NULL;\n
+   strcpy(str,"cquestionbank");\n
+   printf("%s",str);\n
+}\n</string>
+
+     <string name="question_ten" formatted = "false">Question 10).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+   int i=0;\n
+  for(;i&lt;=2;)\n
+   printf(" %d",++i); \n
+}\n</string>
+
+     <string name="question_eleven" formatted = "false">Question 11).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+    int x;\n
+  for(x=1;x&lt;=5;x++);\n
+    printf("%d",x); \n
+}\n</string>
+
+     <string name="question_twelve" formatted = "false">Question 12).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+  printf("%d",sizeof(5.2));\n
+}\n</string>
+
+     <string name="question_thirteen" formatted = "false">Question 13).  What will be output if you will compile and execute the following c code?\n\n
+void main(){\n
+   char c=\08;\n
+printf("%d",c); \n
+}\n</string>
+
+     <string name="question_fourteen" formatted = "false">Question 14).  What will be output if you will compile and execute the following c code?\n\n
+#define call(x,y) x##y\n
+void main(){\n
+int x=5,y=10,xy=20;\n
+printf("%d",xy+call(x,y));\n
+}\n</string>
+
+     <string name="question_fifteen" formatted = "false">Question 15).  What will be output if you will compile and execute the following c code?\n\n
+int * call();\n
+void main(){\n
+int *ptr;\n
+ptr=call();\n
+clrscr();\n
+printf("%d",*ptr);\n
+}\n
+int * call(){\n
+int a=25;\n
+a++;\n
+return &amp;a;\n
+         }\n</string>
+<string name="developed_by" formatted="false">Developed By:-\n
+
+Shadab Ansari\n
+Rajat Nigam</string>
+</resources>
+
+

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3E2723">
+
+        <ImageView
+            android:id="@+id/test_backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_dialog_dialer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Test "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_one"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="5dp">
+
+
+                    <RadioButton
+                        android:id="@+id/q_one_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="320" />
+
+                    <RadioButton
+                        android:id="@+id/q_one_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1" />
+
+
+                    <RadioButton
+                        android:id="@+id/q_one_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="64" />
+
+                    <RadioButton
+
+                        android:id="@+id/q_one_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_two"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+
+                    <RadioButton
+                        android:id="@+id/q_two_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="348" />
+
+                    <RadioButton
+                        android:id="@+id/q_two_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="27" />
+
+
+                    <RadioButton
+                        android:id="@+id/q_two_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="133" />
+
+                    <RadioButton
+                        android:id="@+id/q_two_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_three"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+                    <RadioButton
+                        android:id="@+id/q_three_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="135" />
+
+                    <RadioButton
+                        android:id="@+id/q_three_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="27" />
+
+                    <RadioButton
+                        android:id="@+id/q_three_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-121" />
+
+                    <RadioButton
+                        android:id="@+id/q_three_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_four"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+                <RadioGroup
+                    android:id="@+id/radio_groupfour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+                    <RadioButton
+                        android:id="@+id/q_four_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Equal" />
+
+                    <RadioButton
+                        android:id="@+id/q_four_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Less Than" />
+
+                    <RadioButton
+                        android:id="@+id/q_four_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Greater Than " />
+
+                    <RadioButton
+                        android:id="@+id/q_four_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_five"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+                    <RadioButton
+                        android:id="@+id/q_five_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="21" />
+
+                    <RadioButton
+                        android:id="@+id/q_five_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="18" />
+
+                    <RadioButton
+                        android:id="@+id/q_five_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="12" />
+
+                    <RadioButton
+                        android:id="@+id/q_five_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_six"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_six"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+                    <RadioButton
+                        android:id="@+id/q_six_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-3" />
+
+                    <RadioButton
+                        android:id="@+id/q_six_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-2" />
+
+                    <RadioButton
+                        android:id="@+id/q_six_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/q_six_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_seven"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+
+                <RadioGroup
+                    android:id="@+id/radio_group_seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+
+                    <RadioButton
+                        android:id="@+id/q_seven_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="12 11 11" />
+
+                    <RadioButton
+                        android:id="@+id/q_seven_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="12 12 10" />
+
+
+                    <RadioButton
+                        android:id="@+id/q_seven_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="12 11 11" />
+
+                    <RadioButton
+                        android:id="@+id/q_seven_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_eight"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+
+                <RadioGroup
+                    android:id="@+id/radio_groupeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+
+                    <RadioButton
+                        android:id="@+id/q_eight_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="11Hello world " />
+
+                    <RadioButton
+                        android:id="@+id/q_eight_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="10Hello world" />
+
+
+                    <RadioButton
+                        android:id="@+id/q_eight_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="10Hello world1" />
+
+                    <RadioButton
+                        android:id="@+id/q_eight_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Hello world11" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_nine"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+
+                <RadioGroup
+                    android:id="@+id/radio_group_nine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+
+                    <RadioButton
+                        android:id="@+id/q_nine_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="cquestionbank" />
+
+                    <RadioButton
+                        android:id="@+id/q_nine_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="cquestionbank\0" />
+
+
+                    <RadioButton
+                        android:id="@+id/q_nine_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="(null)" />
+
+                    <RadioButton
+                        android:id="@+id/q_nine_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_ten"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#880E4F" />
+
+
+                <RadioGroup
+                    android:id="@+id/radio_group_ten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+
+                    <RadioButton
+                        android:id="@+id/q_ten_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 1 2" />
+
+                    <RadioButton
+                        android:id="@+id/q_ten_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0 1 2 3" />
+
+
+                    <RadioButton
+                        android:id="@+id/q_ten_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1 2 3" />
+
+                    <RadioButton
+                        android:id="@+id/q_ten_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compiler Error" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/test_submit_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#3E2723"
+                    android:text="Submit"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
