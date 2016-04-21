@@ -16,6 +16,13 @@
         android:textColor="#d6b90512"
         android:textStyle="bold" />
 
+    <ListView
+        android:id="@+id/lst_lisyview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
     <Button
         android:id="@+id/singinBtn"
         android:layout_width="wrap_content"
